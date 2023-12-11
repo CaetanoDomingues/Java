@@ -6,7 +6,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 
 public class Conexao {
 
-    private JdbcTemplate conexaoDoBanco;
+    protected JdbcTemplate conexaoDoBanco;
 
     public Conexao() {
         BasicDataSource dataSource = new BasicDataSource();
