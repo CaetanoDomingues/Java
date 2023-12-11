@@ -1,13 +1,10 @@
 package sptech.school;
 
-
-import org.springframework.jdbc.core.JdbcTemplate;
-import sptech.school.Connection.Conexao;
+import sptech.school.User.UsuarioCadastro;
 
 public class Main {
     public static void main(String[] args) {
-    Conexao con = new Conexao();
-    JdbcTemplate mysql = con.getConexaoDoBanco();
-
+        UsuarioCadastro usuarioCadastro = new UsuarioCadastro("Caetano","caetano@example.org","12345");
+        usuarioCadastro.cadastrar();
     }
 }
