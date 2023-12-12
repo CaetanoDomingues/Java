@@ -1,0 +1,23 @@
+CREATE DATABASE desafio;
+USE desafio;
+
+CREATE TABLE tbUsuario(
+id INT PRIMARY KEY AUTO_INCREMENT,
+nome VARCHAR(100),
+email VARCHAR(100),
+senha VARCHAR(15)
+);
+SELECT * FROM tbUsuario;
+
+CREATE TABLE tbComponente(
+idComp INT PRIMARY KEY AUTO_INCREMENT,
+tipo VARCHAR(100)
+);
+
+CREATE TABLE tbRegistro(
+idReg INT PRIMARY KEY AUTO_INCREMENT,
+dataHora TIME,
+medida DOUBLE,
+fkComp INT,
+FOREIGN KEY (fkComp) REFERENCES tbComponente(idComp)
+);

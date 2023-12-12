@@ -1,5 +1,0 @@
-Esse projeto é destinado a realização de agendamento de tarefas, baseado no desempenho
-de componentes eletrônicos como CPU,RAM e Disco. Fornencendo um gerenciamento para um supervisor
-de sistemas e seus subordinados.
-Com o auxilio de um banco de dados para poder visualizar onde e quando houve os registros,quais componentes
-e quem está responsável por determinado dispositivo.

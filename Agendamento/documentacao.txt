@@ -1,0 +1,14 @@
+DOCUMENTAÇÃO DO DESAFIO DE JAVA
+
+Esse projeto é feito com a intenção de fornecer uma aplicação que seja capaz de entregar a entrada de
+usuários no banco de dados, juntamente do cadastro de componente e seus registros. Marcando como a rotina
+de leitura sobre o desempenho dos componentes.
+Lidando com a linguagem Java para efetuar a conexão com o banco de dados MySQL Workbench, focando em auxliar na entrada
+de dados e sua leitura com a ferramente Jdbc Template. Contando com o uso da Looca, um a API responsável por ler os dados
+da máquina do usuário e enviar ao banco.
+
+Coleta-se 3 componentes, sendo CPU,RAM e disco que conta como  o uso, frêquencia, memória disponível, memória usada e volume
+do disco.
+
+Interfaces que possuem contrato com as classes de usuarios e componentes que permitem a necessidade de realizar as ações como
+login,cadastro e registro.
